@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iBadajoz</string>
+    <string name="line_label">Line</string>
+    <string name="next_stop">Next Stop</string>
+    <string name="loading_stop_info">Loading...</string>
+    <string name="loading_stop_info_error">Error</string>
+    <string name="connecting_to">Connecting to</string>
+    <string name="line_forward">Forward</string>
+    <string name="line_return">Return</string>
+    <string name="menu_save_button_title">Save</string>
+    <string name="menu_unsave_button_title">Delete</string>
+    <string name="tab_lines">Lines</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="no_favorites">No saved favorites were found, use the heart icon located in each Stop viewer for saving it as favorite</string>
+    <string name="tab_news">News</string>
+    <string name="tab_special_news">Special</string>
+    <string name="tab_jobs_news">Jobs</string>
+    <string name="sliding_menu_news">News</string>
+    <string name="sliding_menu_contacts">Contacts</string>
+    <string name="sliding_menu_tubasa">Tubasa</string>
+    <string name="refresh_news_button">Refresh</string>
+    <string name="browser_news_button">Browse</string>
+    <string name="browser_news_share">Share</string>
+    <string name="contact_address">Address</string>
+    <string name="contact_phone">Phone</string>
+    <string name="contact_web">Website</string>
+    <string name="action_bar_news">News</string>
+    <string name="action_bar_contacts">Contacts</string>
+    <string name="action_bar_buses">Tubasa</string>
+    <string name="parada_without_name">No Info</string>
+
+</resources>

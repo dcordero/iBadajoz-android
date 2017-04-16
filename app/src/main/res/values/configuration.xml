@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="contacts_url">SECRET</string>
+    <string name="buslines_url">SECRET</string>
+    <string name="busstop_url">SECRET</string>
+    <string name="aws_apikey">SECRET</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_bus_stop_save_button"
+        android:icon="@drawable/save_stop_button_off"
+        android:title="@string/menu_save_button_title"
+        android:showAsAction="ifRoom|withText">
+    </item>
+</menu>

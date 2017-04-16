@@ -1,0 +1,123 @@
+<LinearLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#FF0000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:background="#70FFFFFF"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/stop_color"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/stop_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0083a3"
+                android:textSize="20sp"
+                tools:text="Stop label"/>
+            <TextView
+                android:id="@+id/line_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Line #number"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#90FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#0083a3"
+            android:textSize="20sp"
+            android:text="@string/next_stop"/>
+
+        <TextView
+            android:id="@+id/next_stop_value"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#0083a3"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            tools:text="00:00"/>
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#0083a3"
+        android:background="#70FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/connecting_to"/>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#90FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#0083a3"
+            android:textSize="20sp"
+            android:text="@string/next_stop"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#0083a3"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            tools:text="00:00"/>
+    </LinearLayout>
+
+</LinearLayout>

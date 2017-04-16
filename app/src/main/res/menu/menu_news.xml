@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_news_refresh_button"
+        android:icon="@drawable/refresh"
+        android:title="@string/refresh_news_button"
+        android:showAsAction="ifRoom|withText">
+    </item>
+</menu>

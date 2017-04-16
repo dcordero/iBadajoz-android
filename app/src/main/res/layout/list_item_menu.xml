@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#0083a3">
+
+    <TextView
+        android:id="@+id/menu_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        tools:text="Menu entry"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="SBusTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SBusActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+        <item name="homeAsUpIndicator">@drawable/ic_drawer</item>
+    </style>
+
+    <style name="SBusActionBarStyle"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#0083a3</item>
+    </style>
+
+    <style name="SBusBackButtonTheme" parent="SBusTheme">
+        <item name="android:actionBarStyle">@style/SBusActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+    </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/line_color"
+        android:layout_width="14dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="13dp"
+        android:layout_alignTop="@id/stop_label"
+        android:layout_alignBottom="@id/stop_label"
+        android:background="@drawable/rectangle"/>
+
+    <View
+        android:id="@+id/stop_color"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/circle"/>
+
+    <TextView
+        android:id="@+id/stop_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0083a3"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/stop_color"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        tools:text="Stop label"/>
+
+</RelativeLayout>
